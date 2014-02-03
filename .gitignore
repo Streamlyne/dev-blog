@@ -1,3 +1,6 @@
+# ===== Jekyll ====
+_site
+
 # ===== Start Global/Linux.gitignore =====
 *~
 # ===== End Global/Linux.gitignore =====
