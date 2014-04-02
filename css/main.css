@@ -16,17 +16,9 @@ body {
   background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
-  /*
-  text-align: center;
-  */
-
   padding-top: 50px;
 }
 
-/*
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-*/
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
@@ -39,6 +31,20 @@ a:visited { color: #a0a; }
 /* Home
 /*
 /*****************************************************************************/
+
+.jumbotron {
+  background: url('/assets/images/plant.jpg') no-repeat top center;
+  background-position: bottom 0px right 0px;
+  background-size: 100%;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
