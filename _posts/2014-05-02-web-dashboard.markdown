@@ -1,57 +1,55 @@
 ---
 layout: post
-title:  "Web Dashboard"
-date:   2014-05-03 01:30:00
-description:  "Web Application mockups."
+title:  "Development Update 2014-04-03"
+date:   2014-04-03 01:30:00
+description: |
+  Our first development update outlining our plans for continued
+  product engagement, where we are at, and what we are up to.
 categories: web
-author: glavin
+author: dawson
 ---
 
-This is a quick overview of our current iOS Mobile Application and some attached screenshots to hopefully get you excited.
-Please be sure to let us know if you have any ideas for improvements.
+This is our first development update. The intent of this update is not to deliver a
+complete product, but keep key users involved
 
 ---
 
-## Login
+# Asset Profile
 
-![Screenshot]({{ site.url }}/assets/iPhone_Login_1.PNG)
-
-
-## Sign Up
-
-![Screenshot]({{ site.url }}/assets/iPhone_SignUp_1.PNG)
-
-### Authentication
-
-![Screenshot]({{ site.url }}/assets/iPhone_SignUp_2.PNG)
+We have spent a lot of time in the past month to incorporate feedback attained
+during my stay in Red Deer. One piece of feed back we received was that it is
+useful to compare values between different things (ex: DCS values). To
+facilitate this we have restructured the application to support viewing multiple
+assets at once.
 
 
-## Menu
 
-![Screenshot]({{ site.url }}/assets/iPhone_Menu_1.PNG)
+# Attribute View
 
-## Assets
+The Attribute View is ...
 
-![Screenshot]({{ site.url }}/assets/iPhone_Assets_1.PNG)
+### Default View
 
-## Asset Profile
+#### View Option 1
 
-![Screenshot]({{ site.url }}/assets/iPhone_AssetProfile_1.PNG)
+![Attribute View 1](https://docs.google.com/drawings/d/1XyDPg7BMWy6VpuNhwpjt9_pU2O5JzKhfieMuYTTTukI/pub?w=450&h=500)
 
-## Log Metric Sheets
+#### View Option 2
 
-![Screenshot]({{ site.url }}/assets/iPhone_LogSheets_1.PNG)
-![Screenshot]({{ site.url }}/assets/iPhone_LogSheet_1.PNG)
+![Attribute View 2](https://docs.google.com/drawings/d/1b9Eq_uLgtfTuLtlGInVGyzMlc_67UEfP-OVOCG5aUXA/pub?w=450&h=500)
 
+### Creating a new Attribute
 
-## LOTO & Blind
+#### Create option 1
 
-![Screenshot]({{ site.url }}/assets/iPhone_LOTOandBlind_1.PNG)
+![Attribute Create 1](https://docs.google.com/drawings/d/13Q-wun8L7KVKiFOqgdlxqtzpFfWM09UDMUIdZGNGVdQ/pub?w=460&h=710)
 
-## Isolation Points
+#### Create option 2
 
-![Screenshot]({{ site.url }}/assets/iPhone_LOTOIsolationPoint_1.PNG)
+![Attribute Create 1](https://docs.google.com/drawings/d/1pk7R2VyFHccvWrGwyEz704mXO0YABoXhAfBTzgIf31w/pub?w=460&h=710)
 
-## Signature
+# Mobile Update
 
-![Screenshot]({{ site.url }}/assets/iPhone_Signature_1.png)
+---
+
+Please contact us with any and all feed back @ dawson@streamlyne.co.
