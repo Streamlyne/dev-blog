@@ -3,3 +3,24 @@ markdown: redcarpet
 pygments: true
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+relative_permalinks: true
+
+authors:
+  glavin:
+    name: Glavin Wiechert
+    display_name: Glavin
+    gravatar: c66919cb194f96c696c1da0c47354a6a
+    email: glavin@streamlyne.co
+    web: http://www.linkedin.com/in/glavin
+    twitter: GlavinW
+    linkedin: http://www.linkedin.com/in/glavin
+    github: Glavin001
+  dawson:
+    name: Dawson Reid
+    display_name: Dawson
+    gravatar: 12e480a364a5c19214f99b4dfe9a11d5
+    email: dawson@streamlyne.co
+    web: http://company.com
+    twitter: DawsonReid
+    linkedin: dawsonreid
+    github: jorgenm

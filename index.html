@@ -1,13 +1,20 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Streamlyne Blog
 ---
 
 <div id="home">
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% assign author = site.authors[post.author] %}
+      <li>
+        <h3>{{ post.title }}</h3>
+        <span>Posted on {{ post.date | date_to_string }} by <a href="{{ author.url }}" target="_bank">{{ author.display_name }}</a></span>
+        <p>{{ post.description }}</p>
+        <a href="{{ post.url }}">Read More</a>
+        <hr/>
+      </li>
     {% endfor %}
   </ul>
 </div>

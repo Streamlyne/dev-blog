@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "iOS Mobile App"
-date:   2014-02-03 01:30:00
-description:  "iOS Mobile application mockups."
-categories: ios
+title:  "Web Dashboard"
+date:   2014-05-03 01:30:00
+description:  "Web Application mockups.""
+categories: web
 author: glavin
 ---
 
