@@ -2,7 +2,7 @@
 layout: post
 title:  "Web Dashboard"
 date:   2014-05-03 01:30:00
-description:  "Web Application mockups.""
+description:  "Web Application mockups."
 categories: web
 author: glavin
 ---
@@ -54,4 +54,4 @@ Please be sure to let us know if you have any ideas for improvements.
 
 ## Signature
 
-![Screenshot]({{ site.url }}/assets/iPhone_Signature_1.PNG)
+![Screenshot]({{ site.url }}/assets/iPhone_Signature_1.png)

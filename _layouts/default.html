@@ -6,6 +6,9 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
+        <!-- Include Components CSS -->
+        <link rel="stylesheet" href="{{ site.url }}/assets/bower/bootstrap/dist/css/bootstrap.min.css">
+
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
@@ -15,30 +18,19 @@
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+        {% include navbar.html %}
+
+        <div class="container">
 
           {{ content }}
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Company<br />
-                Website<br />
-
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="http://streamlyne.co" target="_blank">Streamlyne Technologies Limited</a><br />
-                <a href="http://streamlyne.co" target="_blank">http://streamlyne.co</a><br />
-              </p>
-            </div>
-          </div>
         </div>
+
+        {% include footer.html %}
+
+        <!-- Include Scripts -->
+        <script src="{{ site.url }}/assets/bower/jquery/dist/jquery.min.js"></script>
+        <script src="{{ site.url }}/assets/bower/bootstrap/dist/js/bootstrap.min.js"></script>
 
     </body>
 </html>
