@@ -2,13 +2,26 @@
 layout: default
 title: Streamlyne Blog
 ---
+<style>
+  body {
+    background-image: -webkit-linear-gradient(bottom, #ff9840, #444444 50%, #ACACAC);
+    background-image:         linear-gradient(to top, #ff9840, #444444 50%, #ACACAC);
+  }
 
+  #slb-main-site-btn {
+    background-color: #ff9840;
+    border-color: #bf7230;
+  }
+
+  #slb-title {
+    background-color: rgba(1,1,1,.5)
+  }
+</style>
 <div id="home">
 
   <div class="jumbotron">
-    <h1>Welcome to the Streamlyne Developmental Blog</h1>
-    <p>Below are posts on our progress</p>
-    <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+    <h1 id="slb-title" >Welcome to the Streamlyne Developmental Blog</h1>
+    <p><a id="slb-main-site-btn" href="http://www.streamlyne.co" class="btn btn-primary btn-lg" role="button">Main Site</a></p>
   </div>
 
   <ul class="posts">
@@ -22,7 +35,7 @@ title: Streamlyne Blog
             {{post.title}}
             <small>
               <span>Posted on {{ post.date | date_to_string }} by
-                
+
                 <a href="{{ author.url }}" target="_bank">{{ author.display_name }}</a>
 
               </span>
