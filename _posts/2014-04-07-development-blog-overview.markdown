@@ -11,9 +11,9 @@ description: |
 ---
 
 Our development blog platform has been created with the intent of keeping our
-investors and operators up-to-date with our progress. The goal is to involve you
-in development of the Streamlyne platform so that way we may regularly receive
-feedback and validation.
+investors, operators, and people of interest up-to-date with our progress. The
+goal is to involve you in development of the Streamlyne platform so that way we
+may regularly receive feedback and validation.
 
 ---
 
@@ -21,21 +21,23 @@ You may view the current state of the web dashboard
 <a href="http://107.170.91.36/dashboard/#/assets/search" target="_blank">here
 </a>. This is a work in progress and purposefully lacks data and functionality.
 
-#### The plan
+### The Plan
 
 The server component (the engine to support all of the functionality) of
 Streamlyne is complete and ready to go. All we need to do is connect it to the
-user interface (the website in this case). Before we do this though we are
-looking for more feedback on how we should structure everything. We want to
-validate our application against you prior to coupling these pieces together
-that way we may ensure the end product will make things easier for the
-operators.  
+user interface (the
+<a href="http://107.170.91.36/dashboard/#/assets/search" target="_blank">web
+application</a>). Before we do this we are looking for more feedback on how we
+should structure the application. We want to validate our application against
+you prior to coupling these pieces together that way we may ensure the end
+product will make life easier for operators, and thus engrained in their daily
+workflow.  
 
 We will be releasing at least one more blog post this week detailing the
-restructuring of the application we have done over March. From here forwards we
+restructuring of the application we have done over March. Moving forward we
 will be **releasing at least one development update per week**.
 
-#### Timeline
+### Timeline
 
 Our focus for April is nailing down and releasing our mobile and web platform.
 If you look through the
@@ -54,7 +56,7 @@ we may then begin pattern mining DCS data in correlation with asset knowledge
 built by operators through there daily use of the Streamlyne platform in
 efforts to predict asset failures.
 
-#### Feedback
+### Feedback
 
 Below this post you will see a commenting system. This commenting system is the
 starting point for our feedback. You may comment anonymously, or by logging in
@@ -68,4 +70,4 @@ Alternatively you can always contact us at :
 - Todd Todd@streamlyne.co (902)210-6735
 
 Please let me know if I have used any unfamiliar jargon let me know I will
-clarify. 
+clarify.

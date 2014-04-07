@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Development Update 2014-04-08"
-date:   2014-04-08 01:30:00
+title:  "Development Update 2014-04-03"
+date:   2014-04-03 01:30:00
 description: |
   Our first development update outlining our plans for continued
   product engagement, where we are at, and what we are up to.
 categories: web
 author: dawson
+
+draft: true
 ---
 
 This is our first development update. The intent of this update is not to deliver a

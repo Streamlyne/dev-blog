@@ -6,6 +6,8 @@ description: |
   Current development on the Web Dashboard, focusing on the Asset Profile.
 categories: web
 author: glavin
+
+draft: true
 ---
 
 We received a lot of very useful feedback in Dawson's trip to the Nevis plant.
