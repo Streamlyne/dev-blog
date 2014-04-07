@@ -6,7 +6,7 @@ comments: true
 
 <h2>{{ page.title }}</h2>
 <p class="meta">
-  Author: {{ author.display_name }}
+  Author: <a href="mailto:{{ author.email }}">{{ author.display_name }}</a>
   <br/>
   {{ page.date | date_to_string }}
 </p>

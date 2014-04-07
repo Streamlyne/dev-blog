@@ -26,11 +26,30 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #5dc8dc; }
 
+/*
+body {
+  background-image: -webkit-linear-gradient(bottom, #ff9840, #444444 50%, #ACACAC);
+  background-image:         linear-gradient(to top, #ff9840, #444444 50%, #ACACAC);
+}
+*/
+
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
+
+
+#slb-main-site-btn {
+  background-color: #ff9840;
+  border-color: #bf7230;
+}
+
+/*
+#slb-title {
+  background-color: rgba(1,1,1,.5)
+}
+*/
 
 .jumbotron {
   background: url('/assets/images/plant.jpg') no-repeat top center;
@@ -44,6 +63,16 @@ a:visited { color: #5dc8dc; }
   margin: 0;
   margin-top: 20px;
   text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+
+.container .jumbotron {
+  padding: 0px;
+}
+
+.jumbotron .slb-title-cont {
+  background-color: rgba(1,1,1,.5);
+  padding: 48px 60px;
+  border-radius: 6px;
 }
 
 .posts {
