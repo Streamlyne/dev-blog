@@ -14,28 +14,29 @@ title: Streamlyne Blog
   <ul class="posts">
 
     {% for post in site.posts %}
-      {% assign author = site.authors[post.author] %}
 
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">
-            {{post.title}}
-            <small>
-              <span>Posted on {{ post.date | date_to_string }} by
+        {% assign author = site.authors[post.author] %}
 
-                <a href="mailto:{{ author.email }}">{{ author.display_name }}</a>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              {{post.title}}
+              <small>
+                <span>Posted on {{ post.date | date_to_string }} by
 
-              </span>
-            </small>
-          </h3>
+                  <a href="mailto:{{ author.email }}">{{ author.display_name }}</a>
+
+                </span>
+              </small>
+            </h3>
+          </div>
+          <div class="panel-body">
+              {{ post.description }}
+          </div>
+          <div class="panel-footer">
+            <a href="{{ post.url }}" class="btn btn-default">Read More</a>
+          </div>
         </div>
-        <div class="panel-body">
-            {{ post.description }}
-        </div>
-        <div class="panel-footer">
-          <a href="{{ post.url }}" class="btn btn-default">Read More</a>
-        </div>
-      </div>
 
     {% endfor %}
 

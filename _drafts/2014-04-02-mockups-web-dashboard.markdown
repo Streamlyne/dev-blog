@@ -7,8 +7,6 @@ description: |
   product engagement, where we are at, and what we are up to.
 categories: web
 author: dawson
-
-draft: true
 ---
 
 This is our first development update. The intent of this update is not to deliver a
