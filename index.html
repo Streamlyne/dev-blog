@@ -6,8 +6,8 @@ title: Streamlyne Blog
 
   <div class="jumbotron">
     <div class="slb-title-cont">
-      <h1 id="slb-title" >Welcome to the Streamlyne Developmental Blog</h1>
-      <p><a id="slb-main-site-btn" href="http://www.streamlyne.co" target="_blank" class="btn btn-primary btn-lg" role="button">Main Site</a></p>
+      <h1 id="slb-title" >Welcome to the {{ site.name }}</h1>
+      <p><a id="slb-main-site-btn" href="{{ site.company.url }}" target="_blank" class="btn btn-primary btn-lg" role="button">Main Site</a></p>
     </div>
   </div>
 
@@ -24,7 +24,7 @@ title: Streamlyne Blog
               <small>
                 <span>Posted on {{ post.date | date_to_string }} by
 
-                  <a href="mailto:{{ author.email }}">{{ author.display_name }}</a>
+                  <a href="mailto:{{ author.email }}">{{ author.name }}</a>
 
                 </span>
               </small>

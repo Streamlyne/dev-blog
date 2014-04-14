@@ -1,4 +1,7 @@
 name: Streamlyne Development Blog
+company:
+  name: Streamlyne Technologies Limited
+  url: http://streamlyne.co
 markdown: redcarpet
 pygments: true
 redcarpet:
@@ -10,7 +13,6 @@ permalink: /post/:title
 authors:
   glavin:
     name: Glavin Wiechert
-    display_name: Glavin
     gravatar: c66919cb194f96c696c1da0c47354a6a
     email: glavin@streamlyne.co
     url: http://www.linkedin.com/in/glavin
@@ -20,10 +22,13 @@ authors:
     phone: (902)225-7035
   dawson:
     name: Dawson Reid
-    display_name: Dawson
     gravatar: 12e480a364a5c19214f99b4dfe9a11d5
     email: dawson@streamlyne.co
     url: http://company.com
     twitter: DawsonReid
     linkedin: dawsonreid
-    github: jorgenm
+    github: dreid93
+  todd:
+    name: Todd Murphy
+    url: streamlyne.co
+    email: todd@streamlyne.co
